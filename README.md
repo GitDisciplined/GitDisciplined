@@ -1,8 +1,7 @@
-# Professor [Your Last Name]
-
+# Bin
 ## About Me
 
-I am a professor of [Subject/Area] at [University/Institution]. My research interests include [Research Interests]. I am passionate about [Topics of Interest]. I enjoy mentoring students and collaborating on innovative projects.
+I am  a research scholar. My research interests include VLSI circuits, hardware accelerators for AI , MEMS, CMOS-MEMS integration
 
 ## Education
 

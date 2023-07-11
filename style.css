@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  align-items: center;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
@@ -36,8 +37,7 @@ img {
 }
 
 .right-column {
-  flex: 2;
-  padding-left: 40px;
+  flex: 3;
 }
 
 .header {
@@ -55,34 +55,58 @@ h3 {
   color: #666;
 }
 
-.tabs {
-  display: flex;
-  margin-bottom: 20px;
+.content {
+  background-color: #f6f8fa;
+  padding: 20px;
+  border-radius: 6px;
 }
 
 .tab {
-  background-color: #f2f2f2;
-  border: none;
-  color: #666;
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.tab input[type="radio"] {
+  display: none;
+}
+
+.tab label {
+  display: block;
   padding: 10px 20px;
+  background-color: #f2f2f2;
+  color: #24292e;
+  border-radius: 4px 4px 0 0;
   cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
-.tab:hover {
-  background-color: #e0e0e0;
-}
-
-.tab.active {
-  background-color: #007bff;
-  color: #fff;
+.tab label:hover {
+  background-color: #eaecef;
 }
 
 .tab-content {
   display: none;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 0 4px 4px 4px;
+  position: absolute;
+  top: 34px;
+  left: 0;
+  right: 0;
 }
 
-h2 {
+.tab-content h2 {
   margin-top: 0;
+}
+
+.tab input[type="radio"]:checked + label {
+  background-color: #fff;
+  color: #0366d6;
+  border-bottom: 1px solid #f6f8fa;
+  z-index: 2;
+}
+
+.tab input[type="radio"]:checked + label + .tab-content {
+  display: block;
 }

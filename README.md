@@ -1,40 +1,71 @@
-# Bin
-## About Me
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GitHub Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
 
-I am  a research scholar. My research interests include VLSI circuits, hardware accelerators for AI , MEMS, CMOS-MEMS integration
+    h1 {
+      text-align: center;
+    }
 
-## Education
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
 
-- [Degree 1](link-to-degree-1): [University/Institution], Year
-- [Degree 2](link-to-degree-2): [University/Institution], Year
-- [Degree 3](link-to-degree-3): [University/Institution], Year
+    .profile-picture {
+      text-align: center;
+    }
 
-## Research
+    .bio {
+      margin-top: 20px;
+      text-align: center;
+    }
 
-My research focuses on [Research Focus/Area]. Some of my recent projects and publications include:
+    .repositories {
+      margin-top: 40px;
+    }
 
-- [Project 1](link-to-project-1): Brief description of the project.
-- [Project 2](link-to-project-2): Brief description of the project.
-- [Project 3](link-to-project-3): Brief description of the project.
+    .repository {
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
 
-## Teaching
+    .repository h2 {
+      margin: 0;
+      font-size: 18px;
+    }
 
-I am passionate about teaching and mentoring students. Some of the courses I teach include:
-
-- [Course 1](link-to-course-1): Course description and objectives.
-- [Course 2](link-to-course-2): Course description and objectives.
-- [Course 3](link-to-course-3): Course description and objectives.
-
-## Publications
-
-Here are some of my notable publications:
-
-- [Publication 1](link-to-publication-1)
-- [Publication 2](link-to-publication-2)
-- [Publication 3](link-to-publication-3)
-
-## Contact
-
-You can reach me via email at [Your Email Address]. Feel free to connect with me on [LinkedIn](your-linkedin-profile) as well.
-
-<!-- Add any other sections or customizations as per your preference -
+    .repository p {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>GitHub Profile</h1>
+    <div class="profile-picture">
+      <img src="profile-picture.jpg" alt="Profile Picture" width="200" height="200">
+    </div>
+    <div class="bio">
+      <h2>Professor Name</h2>
+      <p>Professor of Department, Institute</p>
+      <p>Research Interests: Your research interests</p>
+    </div>
+    <div class="repositories">
+      <div class="repository">
+        <h2>Repository Name 1</h2>
+        <p>Repository description</p>
+      </div>
+      <div class="repository">
+        <h2>Repository Name 2</h2>
+        <p>Repository description</p>
+      </div>
+      <!-- Add more repositories as needed -->
+    </div>

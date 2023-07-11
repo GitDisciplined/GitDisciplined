@@ -1,37 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css"> <!-- Custom CSS file -->
-  <title>Your Name</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Your Name</h1>
-      <p>Student at </p> 
-      <p>Area of expertise: Research Field</p>
-      <p>Website: <a href="https://www.example.com">example.com</a></p>
-      <p>Email: user@example.com</p>
-    </div>
-  </header>
-
-  <main>
-    <section id="about" class="section">
-      <div class="container">
-        <h2>About</h2>
-        <p>Add some information about yourself.</p>
+  <div class="container">
+    <div class="left-column">
+      <img src="profile-photo.jpg" alt="Profile Photo">
+      <div class="social-media">
+        <a href="https://twitter.com/johndoe" target="_blank">Twitter</a>
+        <a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a>
+        <a href="https://github.com/johndoe" target="_blank">GitHub</a>
       </div>
-    </section>
-
-    <!-- Add more sections as needed -->
-  </main>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2023 Your Name. All rights reserved.</p>
     </div>
-  </footer>
+    <div class="right-column">
+      <div class="tabs">
+        <button class="tab" onclick="showTab('name')">My Name</button>
+        <button class="tab" onclick="showTab('research')">Research</button>
+        <button class="tab" onclick="showTab('publications')">Publications</button>
+        <button class="tab" onclick="showTab('cv')">CV</button>
+      </div>
+      <div class="tab-content" id="name">
+        <h2>My Name</h2>
+        <p>Hi, I'm John Doe!</p>
+      </div>
+      <div class="tab-content" id="research">
+        <h2>Research</h2>
+        <p>I am currently working on various research projects in the field of Artificial Intelligence and Machine Learning.</p>
+      </div>
+      <div class="tab-content" id="publications">
+        <h2>Publications</h2>
+        <ul>
+          <li>Publication 1</li>
+          <li>Publication 2</li>
+          <li>Publication 3</li>
+        </ul>
+      </div>
+      <div class="tab-content" id="cv">
+        <h2>CV</h2>
+        <p>Download my CV <a href="cv.pdf" target="_blank">here</a>.</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

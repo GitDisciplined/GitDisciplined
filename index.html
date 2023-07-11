@@ -2,28 +2,31 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="script.js"></script>
 </head>
 <body>
   <div class="container">
     <div class="left-column">
       <img src="profile-photo.jpg" alt="Profile Photo">
       <div class="social-media">
-        <a href="https://twitter.com/" target="_blank">Twitter</a>
-        <a href="https://linkedin.com/in/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://twitter.com/johndoe" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://linkedin.com/in/johndoe" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/johndoe" target="_blank"><i class="fab fa-github"></i></a>
       </div>
     </div>
     <div class="right-column">
+      <div class="header">
+        <h1>John Doe</h1>
+        <h3>Research Student</h3>
+      </div>
       <div class="tabs">
-        <button class="tab" onclick="showTab('name')">My Name</button>
+        <button class="tab active" onclick="showTab('about')">About</button>
         <button class="tab" onclick="showTab('research')">Research</button>
         <button class="tab" onclick="showTab('publications')">Publications</button>
         <button class="tab" onclick="showTab('cv')">CV</button>
       </div>
-      <div class="tab-content" id="name">
-        <h2>My Name</h2>
-        <p>Hi, I'm </p>
+      <div class="tab-content active" id="about">
+        <h2>About Me</h2>
+        <p>I am a research student at MIT, currently pursuing my Ph.D. in Computer Science. My research interests lie in the field of Artificial Intelligence and Machine Learning.</p>
       </div>
       <div class="tab-content" id="research">
         <h2>Research</h2>
@@ -43,5 +46,7 @@
       </div>
     </div>
   </div>
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
 </html>

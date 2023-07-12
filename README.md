@@ -1,6 +1,6 @@
 # Hi, I'm  !
 
-I am a research student at , currently pursuing my Ph.D. in . My research interests lie in the field  of...
+I am a research student at , currently pursuing my Ph.D. in . My research interests lie in the field  of VLSI circuits and MEMS. 
 
 ## Education
 
